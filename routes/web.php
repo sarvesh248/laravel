@@ -11,4 +11,7 @@ Route::get('/students/{id}/delete', [StudentController::class, 'destroy'])->name
 Route::get('/about', function () {
     return "This is About Page - Laravel Git Practice";
 });
+Route::get('/about', function () {
+    return "About Page from feature branch";
+});
 
